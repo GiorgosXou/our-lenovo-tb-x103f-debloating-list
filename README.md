@@ -20,6 +20,8 @@ And afterwords open:
 - - True `gfx.webrender.all`
 - - True `network.process.enabled`
 - - False `gfx.webrender.fallback.software`
+- - False `toolkit.scrollbox.smoothScroll`
+- - False `full-screen-api.transition-duration.`
 - ***OpenLauncher:***
 - - *(First download [openlauncher_20240923T171757.zip](./openlauncher_20240923T171757.zip))*
 - - `Advanced > Restore > openlauncher_20240923T171757.zip`
@@ -42,6 +44,7 @@ And afterwords open:
 - - [TWRP Root Guide - Lenovo P8 (TB-8703F and TB-8703X)](https://xdaforums.com/t/twrp-root-guide-lenovo-p8-tb-8703f-and-tb-8703x.3689442/page-4)
 - - [Q: what is Galaxy4.apk (solved)](https://xdaforums.com/t/q-what-is-galaxy4-apk-solved.2256813/)
 - - [Question - LenovoServices is running](https://xdaforums.com/t/lenovoservices-is-running.4344689/)
+- - [Samsung Galaxy One UI - Optimization Guide](https://xdaforums.com/t/samsung-galaxy-one-ui-optimization-guide.4376755/post-88058593)
 
 
 [<sup>See also</sup>](https://github.com/GiorgosXou/Our-Xiaomi-Redmi-5A-riva-debloating-list/?tab=readme-ov-file#-research)
