@@ -1,0 +1,127 @@
+[SUMMARY]
+UNINSTALLS:
+─ Lenovo's services, apps, etc.
+─ Google's services & apps
+─ qualcomm & McAfee apps
+IMPORTANT:
+─ Uninstalls Launcher3, MMS and calendar providers
+INSTALLS:
+─ FOSS: Calendar, Gallery, Camera, Maps, YouTube, etc.
+DISABLES:
+─ Unnecessary slow animations
+(For more info look into the actual list)
+
+[UNINSTALL]
+com.google.android.gms                          # Google Play services - (IMPORTANT: disable all under "Security > Device administrators" for it to be uninstalled)
+com.google.android.tts                          # Google Text-to-speech engine
+com.google.android.gsf                          # Google Services Framework
+com.google.android.gsf.login                    # Google Account Manager
+com.google.android.webview                      # Google System Webview
+com.google.android.syncadapters.contacts        # Google Contacts Sync
+com.google.android.launcher                     # Google Now Launcher
+com.google.android.googlequicksearchbox         # Google search box
+com.android.vending                             # Google Play Store
+com.google.android.calendar                     # Google Calendar
+com.android.contacts                            # Google Contacts
+com.android.chrome                              # Google Chrome
+com.google.android.apps.photos                  # Google Photos
+com.google.android.music                        # Google Music
+com.android.deskclock                           # Google Clock
+com.google.android.apps.maps                    # Google Maps
+com.google.android.youtube                      # Youtube
+com.google.android.gm                           # Google Mail
+com.google.android.apps.docs                    # Google Drive
+com.google.android.videos                       # Google Movies
+com.google.android.talk                         # Google Hangouts
+com.google.android.partnersetup                 # Google Partner Setup
+com.google.android.onetimeinitializer           # Google One Time Init
+com.wsandroid.suite.plugin                      # McAfee Security: Plugin
+com.wsandroid.suite                             # McAfee Security: Antivirus
+com.quicinc.cne.CNEService                      # Smart Network Switch (?)
+com.android.launcher3                           # Launcher3 - home screen
+com.android.mms.service                         # Android - MMS service
+com.android.soundrecorder                       # App Sound Recorder
+com.android.providers.downloads.ui              # Downloads - UI
+com.lenovo.tab10                                # Lenovo TAB 10
+com.thundersoft.ucam                            # App Camera
+com.android.gallery3d                           # App Gallery
+com.lenovo.anyshare.gps                         # App SHAREit
+com.android.calculator2                         # App Calculator
+com.phone.videoplayer                           # App Video Player
+com.wantjoin.childmodel.settings                # Parental Control
+com.wantjoin.childmodel.launcher3               # Parental Control launcher
+com.lenovo.lsf                                  # (Lenovo ID) Lenovo Service Framework
+com.wdstechnology.android.kryten                # OTA Access Point Configuration
+com.lenovo.ota                                  # Lenovo Over-The-Air feature (?)
+android.com.lenovoue                            # Lenovo User Experience Plan
+com.lenovo.lsf.device                           # Lenovo - device service
+com.lenovo.lps.cloud.sync.row                   # Lenovo SYNCit HD
+com.google.android.feedback                     # Send Feedback
+com.dsi.ant.server                              # ANT HAL Service
+com.google.android.inputmethod.latin            # Gboard - the Google Keyboard
+com.oma.drm                                     # Open Mobile Alliance DRM
+com.yha.factory                                 # Related to RuntimeTest
+com.yha.runtime                                 # RuntimeTest
+com.motorola.demo                               # Demo mode
+com.lenovo.lenovoautotest                       # LenovoAutoTest
+com.qti.backupagent                             # Backup Agent
+com.android.galaxy4                             # Black Hole  wallpaper animation
+com.android.wallpaper.holospiral                # Holo Spiral wallpaper animation
+com.android.dreams.basic                        # Daydreams - Screen Saver
+com.android.dreams.phototable                   # Daydreams - Screen Saver
+com.android.phasebeam                           # Samsung - live wallpaper (?)
+com.android.wallpaper.livepicker                # Live Wallpaper Picker
+com.lenovo.newue.service                        # (Unknown) Lenovo Service
+com.yep.setprop                                 # (Unknown) Properties settings
+com.google.android.setupwizard                  # (Unknown) Google - Android Setup (?)
+com.android.qrd.engineeringmode                 # (Unknown) Device Info and stuff
+com.android.providers.partnerbookmarks          # Bookmarks provider from Google Partners
+com.qti.xdivert                                 # Diverts calls to another number
+com.qualcomm.location                           # Qualcomm - Location
+com.qualcomm.location.XT                        # Qualcomm - Accelerated location
+com.qualcomm.qti.confdialer                     # Qualcomm - 4G conference call
+com.qualcomm.qti.tm                             # Qualcomm - Task Manager
+com.huaqin.gesture.switcher                     # Settings > Gestures
+com.huaqin.gestures                             # Settings > Gestures
+com.qualcomm.qti.calendarlocalaccount
+com.android.providers.calendar
+com.yha.engineering
+
+[INSTALL]
+com.fsck.k9                            # Mail
+com.simplemobiletools.clock            # Clock
+com.omgodse.notally                    # Notes
+org.fossify.phone                      # Dialer
+org.fossify.gallery                    # Gallery
+org.fossify.calendar                   # Calendar
+com.benny.openlauncher                 # Launcher
+org.fossify.contacts                   # Contacts
+com.secuso.privacyFriendlyCodeScanner  # QR Scanner
+com.artifex.mupdf.mini.app             # PDF Viewer
+com.simplemobiletools.calculator       # Calculator
+net.sourceforge.opencamera             # Open Camera
+app.organicmaps                        # Organic Maps
+org.fossify.filemanager                # File Manager
+org.fossify.messages                   # SMS Messenger
+org.fossify.voicerecorder              # Voice recorder
+com.tengu.sharetoclipboard             # Share to clipboard
+org.fdroid.fdroid                      # F-Droid - app store
+org.dslul.openboard.inputmethod.latin  # OpenBoard - Keyboard
+org.schabi.newpipe                     # NewPipe - YouTube client
+com.aurora.store                       # Aurora - FOSS Play Store
+us.spotco.fennec_dos                   # Mull - Browser (IMPORTANT: See README.md)
+
+[SHELL]
+rm -r  storage/self/primary/SHAREit/                                                    # Removing "SHAREit" folder
+settings put secure ui_night_mode 2                                                     # Setting Dark theme mode just in case
+settings put global window_animation_scale 0                                            # Setting "Window animation scale" to 0
+settings put global transition_animation_scale 0                                        # Setting "Transition animation scale" to 0
+settings put global animator_duration_scale 0                                           # Setting "Animator duration scale" to 0
+echo "Note: If launcher not set: settings > home > OpenLauncher."
+echo "Note: Goto OpenLauncher > Desktop & Dock Sizes: 9x6, 7x1"
+echo "Note: Goto OpenLauncher > Behavior > checkmark all"
+echo "Note: Goto OpenLauncher > Behavior > Swipe Down > Show Notification Bar"
+echo "Note: Goto OpenLauncher > Behavior > Double Tap > Lock Screen"
+echo "Note: Goto OpenLauncher > Appearance > Icon Size > 56"
+echo "Note: This tablet may get 5~10 minutes to reboot!"
+reboot
