@@ -114,9 +114,9 @@ us.spotco.fennec_dos                   # Mull - Browser (IMPORTANT: See README.m
 [SHELL]
 rm -r  storage/self/primary/SHAREit/                                                    # Removing "SHAREit" folder
 settings put secure ui_night_mode 2                                                     # Setting Dark theme mode just in case
-settings put global window_animation_scale 0                                            # Setting "Window animation scale" to 0
-settings put global transition_animation_scale 0                                        # Setting "Transition animation scale" to 0
-settings put global animator_duration_scale 0                                           # Setting "Animator duration scale" to 0
+settings put global window_animation_scale 0.0                                            # Setting "Window animation scale" to 0
+settings put global transition_animation_scale 0.0                                        # Setting "Transition animation scale" to 0
+settings put global animator_duration_scale 0.0                                           # Setting "Animator duration scale" to 0
 echo "Note: If launcher not set: settings > home > OpenLauncher."
 echo "Note: Goto OpenLauncher > Desktop & Dock Sizes: 9x6, 7x1"
 echo "Note: Goto OpenLauncher > Behavior > checkmark all"
