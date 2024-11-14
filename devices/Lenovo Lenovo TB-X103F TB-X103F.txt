@@ -4,7 +4,7 @@ UNINSTALLS:
 ─ Google's services & apps
 ─ qualcomm & McAfee apps
 IMPORTANT:
-─ Uninstalls Launcher3, MMS and calendar providers
+─ Uninstalls MMS and calendar providers
 INSTALLS:
 ─ FOSS: Calendar, Gallery, Camera, Maps, YouTube, etc.
 DISABLES:
@@ -38,7 +38,6 @@ com.google.android.onetimeinitializer           # Google One Time Init
 com.wsandroid.suite.plugin                      # McAfee Security: Plugin
 com.wsandroid.suite                             # McAfee Security: Antivirus
 com.quicinc.cne.CNEService                      # Smart Network Switch (?)
-com.android.launcher3                           # Launcher3 - home screen
 com.android.mms.service                         # Android - MMS service
 com.android.soundrecorder                       # App Sound Recorder
 com.android.providers.downloads.ui              # Downloads - UI

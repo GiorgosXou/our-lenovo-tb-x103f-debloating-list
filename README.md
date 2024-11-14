@@ -22,9 +22,6 @@ And afterwords open:
 - - False `gfx.webrender.fallback.software`
 - - False `toolkit.scrollbox.smoothScroll`
 - - False `full-screen-api.transition-duration.`
-- ***OpenLauncher:***
-- - *(First download [openlauncher_20240923T171757.zip](./openlauncher_20240923T171757.zip))*
-- - `Advanced > Restore > openlauncher_20240923T171757.zip`
 
 
 # 🌐 Research
