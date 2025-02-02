@@ -88,7 +88,7 @@ com.yha.engineering
 
 [INSTALL]
 com.fsck.k9                            # Mail
-com.fossify.clock|1                    # Clock
+org.fossify.clock|1                    # Clock
 com.omgodse.notally                    # Notes
 org.fossify.phone|4                    # Dialer
 org.fossify.gallery                    # Gallery
@@ -96,7 +96,7 @@ org.fossify.calendar                   # Calendar
 org.fossify.contacts|2                 # Contacts
 com.secuso.privacyFriendlyCodeScanner  # QR Scanner
 com.artifex.mupdf.mini.app             # PDF Viewer
-com.fossify.calculator|2               # Calculator
+org.fossify.calculator|2               # Calculator
 net.sourceforge.opencamera             # Open Camera
 app.organicmaps                        # Organic Maps
 org.fossify.filemanager                # File Manager
