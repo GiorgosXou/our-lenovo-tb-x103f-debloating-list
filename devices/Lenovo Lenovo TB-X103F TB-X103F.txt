@@ -91,17 +91,17 @@ com.fsck.k9                            # Mail
 org.fossify.clock|1                    # Clock
 com.omgodse.notally                    # Notes
 org.fossify.phone|4                    # Dialer
-org.fossify.gallery                    # Gallery
-org.fossify.calendar                   # Calendar
+org.fossify.gallery|9                  # Gallery
+org.fossify.calendar|4                 # Calendar
 org.fossify.contacts|2                 # Contacts
 com.secuso.privacyFriendlyCodeScanner  # QR Scanner
 com.artifex.mupdf.mini.app             # PDF Viewer
 org.fossify.calculator|2               # Calculator
 net.sourceforge.opencamera             # Open Camera
 app.organicmaps                        # Organic Maps
-org.fossify.filemanager                # File Manager
-org.fossify.messages                   # SMS Messenger
-org.fossify.voicerecorder              # Voice recorder
+org.fossify.filemanager|2              # File Manager
+org.fossify.messages|2                 # SMS Messenger
+org.fossify.voicerecorder|1            # Voice recorder
 com.tengu.sharetoclipboard             # Share to clipboard
 org.fdroid.fdroid                      # F-Droid - app store
 helium314.keyboard                     # HeliBoard - Keyboard
