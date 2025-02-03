@@ -15,7 +15,7 @@ Before running `hexapterygon` make sure you go-to:
 
 And afterwords open:
 
-- ***Mull Browser:***
+- ***Fennec Browser:***
 - - Goto `about:config` &
 - - True `gfx.webrender.all`
 - - True `network.process.enabled`

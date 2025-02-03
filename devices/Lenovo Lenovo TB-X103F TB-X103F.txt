@@ -107,7 +107,7 @@ org.fdroid.fdroid                      # F-Droid - app store
 helium314.keyboard                     # HeliBoard - Keyboard
 org.schabi.newpipe                     # NewPipe - YouTube client
 com.aurora.store                       # Aurora - FOSS Play Store
-us.spotco.fennec_dos                   # Mull - Browser (IMPORTANT: See README.md)
+org.mozilla.fennec_fdroid              # Fennec - Browser (IMPORTANT: See README.md)
 
 [SHELL]
 rm -r  storage/self/primary/SHAREit/                                                    # Removing "SHAREit" folder
